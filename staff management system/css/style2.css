@@ -1,0 +1,73 @@
+.navbar{
+width: 130%;
+margin-left: 10%;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+margin-left: -0.01%;
+}
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color:green;
+}
+li {
+float: left;
+}
+li a {
+display: block;
+color: white;
+text-align: center;
+text-decoration: none;
+border-radius: 1px;
+font-family: sans-serif;
+}
+li a:hover:not(.active) {
+background-color: steelblue;
+color: #FFFFFF;
+cursor: pointer;
+border-bottom: 2px solid lightgreen;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+li a {
+	font: sans-serif;
+display: block;
+color: white;
+text-align: center;
+padding: 10px 20px;
+text-decoration: none;
+}
+.table{
+	width: 100%;
+
+}
+.ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color:green;
+}
+.ul li {
+float: left;
+}
+.ul li a {
+display: block;
+color: white;
+text-align: center;
+text-decoration: none;
+border-radius: 1px;
+font-family: sans-serif;
+}
+.ul li a:hover:not(.active) {
+background-color: steelblue;
+color: #FFFFFF;
+cursor: pointer;
+border-bottom: 2px solid lightgreen;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container{
+	background-image: url(../images/second.jpg);
+	background-size: cover;
+	background-position: center;
+}
